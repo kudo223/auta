@@ -12,11 +12,21 @@ namespace auta
 {
     public partial class Form1 : Form
     {
+
+        Auto nakladak;
         public Form1()
         {
             InitializeComponent();
 
         }
+        private void label7_Click(object sender, EventArgs e)
+        {
+            
+        }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            nakladak = new Auto("2BB 10-25", 7500);
+        }
     }
 }
